@@ -6,7 +6,7 @@ import sys, os
 # Thêm đường dẫn chứa dự án ETL của bạn nếu cần
 sys.path.insert(0, os.path.abspath('/d:/Project/Daily-Commute-Analytics-Recommendation'))
 
-from scripts.etl_commute_pipeline import run_commute_etl
+from etl_commute_pipeline import run_commute_etl
 
 default_args = {
     'owner': 'your_name',
